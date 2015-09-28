@@ -20,7 +20,7 @@ PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
 $(call inherit-product, frameworks/native/build/phone-xhdpi-1024-dalvik-heap.mk)
-
+$(call inherit-product-if-exists, vendor/huawei/g760/g760-vendor.mk)
 # ANT+
 PRODUCT_PACKAGES += \
     AntHalService \
