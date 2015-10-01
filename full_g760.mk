@@ -19,7 +19,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit from hardware-specific part of the product configuration
 $(call inherit-product, device/huawei/g760/g760.mk)
-$(call inherit-product-if-exists, vendor/huawei/g760/g760-vendor.mk)
+
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_DEVICE := g760
