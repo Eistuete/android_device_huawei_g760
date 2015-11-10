@@ -50,9 +50,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     bluetooth.hfp.client=1
 
-PRODUCT_PACKAGES += \
-    init.qcom.bt.sh
-
 # Camera
 PRODUCT_PACKAGES += \
     camera.msm8916 \
